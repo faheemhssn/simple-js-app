@@ -1,4 +1,8 @@
-alert('Hello World');
+//Used pokedex.org for pokemon data
 
-let favoriteFood = 'Pizza';
-document.write(favoriteFood);
+let pokemonRepository = (function() {
+  let pokemonList = [
+      {name:'Bulbasaur', height:'0.7', type:['Grass', 'Poison']},
+      {name:'Ivysaur', height:'1', type: ['Grass', 'Poison']},
+      {name:'Venusaur', height:'2', type: ['Grass', 'Poison']},
+    ]})
