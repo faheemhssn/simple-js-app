@@ -1,3 +1,4 @@
+//Used pokedex.org for Pokemon attributes
 let pokemonRepository = (function() {
   let pokemonList = [
       {name:'Bulbasaur', height:'0.7', weight: '6.9', type:['Grass', 'Poison']},
