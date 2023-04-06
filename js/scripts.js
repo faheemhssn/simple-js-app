@@ -19,6 +19,6 @@ let pokemonRepository = (function() {
   };
 
 
-pokemonRepository.getAll().forEach(function(pokemon){ 
-  document.write('<p>' + pokemon.name + " Height:" + pokemon.height + "m Weight:" + pokemon.weight + " Types:" + pokemon.types)
-})
+  pokemonRepository.getAll().forEach(function(pokemon){ 
+    document.write('<p>' + pokemon.name + " Height:" + pokemon.height + "m Weight:" + pokemon.weight + " Types:" + pokemon.types)
+  })
